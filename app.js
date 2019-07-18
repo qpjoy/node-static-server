@@ -24,7 +24,7 @@ app.use('/users', usersRouter);
 
 app.get('*', function(req, res) {
   res.sendfile('index.html', {
-    root: path.join(__dirname, './public');
+    root: path.join(__dirname, './public')
   });
 });
 
