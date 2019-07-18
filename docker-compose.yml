@@ -9,4 +9,6 @@ services:
       - ./:/app
     environment:
       - HELLO=THANKU
-      - VERY=MUCH
+      - PORT=3001
+    ports:
+      - '3001:3000'
